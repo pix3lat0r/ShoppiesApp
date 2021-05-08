@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Rubik&display=swap');
+
+body {
+    background-color: #F4F6F8;
+}
+
+.container {
+    align-content: center;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 676px) {
+    .mvInfo {
+        max-width: 600px; /* New width for default modal */
+    }
+}
+
+.mc {
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+a div {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: #23303E;
+}
+
+h4 {
+    padding: 10px;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.headline {
+    padding: 0px;
+}
+
+.bl {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: -10px;
+}
+
+#remBtn {
+    margin-left: 15px;
+}
+
+.result-box {
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+}
+
+#subTitle {
+    color: #676767;
+    font-size: 13px;
+}
+
+.nom-box {
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.btn-grey {
+    border: 1px solid #d4d9de;
+    background-color: #fafbfc;
+}
+
+input, label {
+    display: block;
+}
+
+.movie-lab {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #23303E;
+    margin-bottom: 10px;
+}
+
+ul li {
+    padding: 6px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+.search-box {
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.search {
+    float: left;
+    width: 91%;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid #C6CED5;
+    padding: 5px;
+    padding-left: 2.375rem;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    color: #9DBFAF;
+    font-family: 'Rubik', sans-serif;
+}
+
+    .searchTerm:focus {
+        color: black;
+    }
+
+.search-btn {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 1.9rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btn-icon {
+    color: #81ce34;
+}
+
+.btn-icon-red {
+    color: #dc3545;
+}
+
+.btn-green {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    background-color: #81ce34;
+    color: white;
+}
+
+.btn-red {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.wed {
+    width: 75%;
+}
