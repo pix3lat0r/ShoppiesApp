@@ -41,7 +41,7 @@ var count = 0;
             finalResult.nodeValue = resultstxt + text + quotes;
 
             //OMDB API vars
-            var baseUrl = "https://www.omdbapi.com/?";
+            var baseUrl = "https://omdbapi.com/?";
             var searchQuery = text;
             var apiKey = "e4161545";
             var searchUrl = baseUrl + 'apikey=' + apiKey;
@@ -86,7 +86,7 @@ function searchMovies(data) {
     //For debugging purposes
     //console.log(JSON.stringify(data));
 
-    var baseUrl = "https://www.omdbapi.com/?";
+    var baseUrl = "https://omdbapi.com/?";
     var apiKey = "e4161545";
     var searchUrl = baseUrl + 'apikey=' + apiKey;
 
